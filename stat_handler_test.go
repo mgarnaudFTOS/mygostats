@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lyft/gostats/mock"
+	"github.com/mgarnaudFTOS/gostats/mock"
 )
 
 func TestHttpHandler_ServeHTTP(t *testing.T) {

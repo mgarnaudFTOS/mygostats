@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/lyft/gostats/mock"
+	"github.com/mgarnaudFTOS/gostats/mock"
 )
 
 type ErrorTest struct {

@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tagspkg "github.com/lyft/gostats/internal/tags"
+	tagspkg "github.com/mgarnaudFTOS/gostats/internal/tags"
 )
 
 // A Store holds statistics.

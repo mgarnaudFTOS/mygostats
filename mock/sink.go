@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/lyft/gostats/internal/tags"
+	"github.com/mgarnaudFTOS/gostats/internal/tags"
 )
 
 type entry struct {

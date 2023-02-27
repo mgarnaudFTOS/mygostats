@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	tagspkg "github.com/lyft/gostats/internal/tags"
-	"github.com/lyft/gostats/mock"
+	tagspkg "github.com/mgarnaudFTOS/gostats/internal/tags"
+	"github.com/mgarnaudFTOS/gostats/mock"
 )
 
 // Ensure flushing and adding generators does not race

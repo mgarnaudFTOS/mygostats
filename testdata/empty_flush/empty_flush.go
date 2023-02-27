@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	stats "github.com/lyft/gostats"
+	stats "github.com/mgarnaudFTOS/gostats"
 )
 
 const FlushTimeout = time.Second * 3

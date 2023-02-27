@@ -1,8 +1,8 @@
 package mock_test
 
 import (
-	stats "github.com/lyft/gostats"
-	"github.com/lyft/gostats/mock"
+	stats "github.com/mgarnaudFTOS/gostats"
+	"github.com/mgarnaudFTOS/gostats/mock"
 )
 
 var (

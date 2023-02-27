@@ -1,6 +1,6 @@
 package main
 
-import stats "github.com/lyft/gostats"
+import stats "github.com/mgarnaudFTOS/gostats"
 
 // Test that the stats of a fast exiting program (such as one that immediately
 // errors on startup) can send stats.
