@@ -26,7 +26,7 @@ const (
 // variables to setup its settings.
 type Settings struct {
 	// Use statsd as a stats sink.
-	UseStatsd bool `envconfig:"USE_STATSD" default:"true"`
+	UseStatsd bool `envconfig:"USE_STATSD" default:"false"`
 	// Address where statsd is running at.
 	StatsdHost string `envconfig:"STATSD_HOST" default:"localhost"`
 	// Network protocol used to connect to statsd
