@@ -1,4 +1,4 @@
-module github.com/lyft/gostats
+module github.com/mgarnaudFTOS/gostats
 
 go 1.17
 
