@@ -1,4 +1,4 @@
-module github.com/mgarnaudFTOS/gostats
+module github.com/mgarnaudFTOS/mygostats
 
 go 1.17
 
