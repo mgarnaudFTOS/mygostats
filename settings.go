@@ -9,13 +9,13 @@ import (
 
 const (
 	// DefaultUseStatsd use statsd as a stats sink, default is true.
-	DefaultUseStatsd = true
+	DefaultUseStatsd = false
 	// DefaultStatsdHost is the default address where statsd is running at.
 	DefaultStatsdHost = "localhost"
 	// DefaultStatsdProtocol is TCP
 	DefaultStatsdProtocol = "tcp"
 	// DefaultStatsdPort is the default port where statsd is listening at.
-	DefaultStatsdPort = 8125
+	DefaultStatsdPort = 8127
 	// DefaultFlushIntervalS is the default flushing interval in seconds.
 	DefaultFlushIntervalS = 5
 	// DefaultLoggingSinkDisabled is the default behavior of logging sink suppression, default is false.
@@ -32,7 +32,7 @@ type Settings struct {
 	// Network protocol used to connect to statsd
 	StatsdProtocol string `envconfig:"STATSD_PROTOCOL" default:"tcp"`
 	// Port where statsd is listening at.
-	StatsdPort int `envconfig:"STATSD_PORT" default:"8125"`
+	StatsdPort int `envconfig:"STATSD_PORT" default:"8126"`
 	// Flushing interval.
 	FlushIntervalS int `envconfig:"GOSTATS_FLUSH_INTERVAL_SECONDS" default:"5"`
 	// Disable the LoggingSink when USE_STATSD is false and use the NullSink instead.
